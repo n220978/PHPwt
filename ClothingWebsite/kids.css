@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;
+    background-color:maroon;
+    margin:0;
+    padding:0;
+}
+.clothes-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    padding:30px;
+}
+.clothes-card{
+    background-color:white;
+    border-radius:20px;
+    padding:15px;
+    text-align:center;
+    font-size:22px;
+}
+.clolthes-card img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    border-radius:15px;
+    border:2px solid black;
+}
+
+.price{
+    margin:10px 0;
+    font-weight:bold;
+    color:whitesmoke;
+}
+input[type="number"]{
+    width:80px;
+    padding:5px;
+    font-size:18px;
+    color:whitesmoke;
+}
