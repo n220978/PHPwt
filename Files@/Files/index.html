@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My official website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="left"><img src="queen.jpg" class="queen"></div>
+            <p class="title"><span class="queen-wear" onmouseover="mousess()">QUEEN's</span> WEAR</p>
+            <a class="login" href="Logins.html" id="loginpg" onclick="login()" ><span class="span-login">Login </span> </a>
+            <a class="login" href="Registration.html"><span style="background-color:blueviolet;border:2px;border-radius:2px;color:white">Register</span> </a>
+        </header>
+
+        <nav>
+            <div class="filter-bar">
+
+                <div class="dropdown">
+                    <div class="filter-item">Category</div>
+                    <div class="dropdown-content">
+                        <a href="#women" class="anchor">Women</a>
+                        <a href="kids.html" class="anchor">Kids</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <div class="filter-item">Price</div>
+                    <div class="dropdown-content">
+                        <a href="#" class="anchor">Low to High</a>
+                        <a href="#">High to Low</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <div class="filter-item">Color</div>
+                    <div class="dropdown-content">
+                        <a href="#" class="anchor" onclick="anchortag(this)">Black</a>
+                        <a href="#" class="anchor" onclick="anchortag(this)">White</a>
+                        <a href="#" class="anchor" onclick="anchortag(this)">Blue</a>
+                        <a href="#" class="anchor" onclick="anchortag(this)">Red</a>
+                        <a href="#" class="anchor" onclick="anchortag(this)">Green</a>
+                        <a href="#" class="anchor" onclick="anchortag(this)">Yellow</a>
+                        <a href="#" class="anchor" onclick="anchortag(this)">Pink</a>
+                        <a href="#" class="anchor" onclick="anchortag(this)">Purple</a>
+                        <a href="#" class="anchor" onclick="anchortag(this)">Orange</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <div class="filter-item">Size</div>
+                    <div class="dropdown-content">
+                        <a href="#" class="anchor">S</a>
+                        <a href="#" class="anchor">M</a>
+                        <a href="#" class="anchor">L</a>
+                        <a href="#" class="anchor">XL</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <div class="filter-item">Sort</div>
+                    <div class="dropdown-content">
+                        <a href="#" class="anchor">Newest</a>
+                        <a href="#" class="anchor">Popular</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <div class="filter-item">Filter</div>
+                    <div class="dropdown-content">
+                        <a href="#" class="anchor">Discount</a>
+                        <a href="#" class="anchor">Availability</a>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </nav>
+
+        <main>
+
+            <div class="content" style="text-align:justify;">
+                <img src="shopping.png" alt="Shopping" class="left-image">
+
+                <div class="right-box">
+                    <p style="padding-left:90px;padding-top:90px;font-size:50px;">
+                        <strong>NEW <br>COLLECTION</strong>
+                    </p>
+                    <p style="font-size:20px;padding-left:90px;" id="NEW">
+                        Discover the latest trends
+                    </p>
+                    <a href="#women">
+                        <button class="shopnow" style="font-size:20px; padding:10px 20px; margin-left:90px; margin-top:20px; border:1px solid black; border-radius:8px; background-color:burlywood; cursor:pointer;" onmouseover="shopNow()">
+                        Shop NOW
+                        </button>
+                    </a>
+
+                </div>
+            </div>
+
+            <p style="text-align:center;font-size:40px;">NEW ARRIVALS</p>
+
+            <div class="image-row" id="women">
+                <div class="image-box">
+                    <a href="longFrocks.html"><img src="long_frocks.png" class="rohini"></a>
+                    <p>Long frocks</p>
+                </div>
+                <div class="image-box">
+                    <a href="office.html"><img src="office_formals.png" class="rohini"></a>
+                    <p>Office wear</p>
+                </div>
+                <div class="image-box">
+                    <a href="genes.html"><img src="Genes.png" class="rohini"></a>
+                    <p>Genes</p>
+                </div>
+                <div class="image-box">
+                    <a href="winter.html"><img src="winter.jpg" class="rohini"></a>
+                    <p>Winter wear</p>
+                </div>
+                <div class="image-box">
+                    <a href="fashion.html"><img src="Fashion.png" class="rohini"></a>
+                    <p>Fashion wear</p>
+                </div>
+                <div class="image-box">
+                    <a href="elegant.html"><img src="Elegant.jpg" class="rohini"></a>
+                    <p>Elegant</p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>
+                        Queen’s Wear is a women-exclusive fashion brand bringing elegant,
+                        trendy, and premium styles at affordable prices.
+                    </p>
+                    <p>our rating is :★★★★⯪ (4.5/5)</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>📞 +91 98765 43210</p>
+                    <p>📧 support@queenswear.com</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Community</h3>
+                    <p>📸 Instagram: @queenswear</p>
+                    <p>💬 WhatsApp: +91 98765 43210</p>
+                    <p>▶ YouTube: Queen’s Wear</p>
+                    <a style="text-decoration:none;color:white;" onclick="ratings()">Rate us</a>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Join Our Community</h3>
+                    <form>
+                        <input type="text" placeholder="Enter your name" class="footer-input">
+                        <input type="email" placeholder="Enter your email" class="footer-input">
+                        <input type="number" placeholder="Enter your mobile number" class="footer-input">
+                        <button class="footer-btn" onclick="join()">Join Now</button>
+                         <!-- <button class="footer-btn" onclick="window.location.href='Registration.html'">Join Now</button> -->
+                    </form>
+                    
+                </div>
+            </div>
+
+            <p class="footer-text">© 2025 Queen’s Wear. All Rights Reserved.</p>
+        </footer>
+        <script>
+            let toggle=false;
+            let mousess=function(){
+                if (toggle==false){
+                    document.getElementsByClassName("queen-wear")[0].style.color="goldenrod";
+                    toggle=true;
+                }
+                else{
+                    document.getElementsByClassName("queen-wear")[0].style.color="darkmagenta";
+                    toggle=false;
+                }
+            }
+        </script>
+
+        <script src="website.js">
+            
+        </script>
+    </body>
+</html>
+
+

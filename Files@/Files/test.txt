@@ -1,0 +1,12 @@
+PHP File Handling Demo
+
+This file is used to demonstrate:
+- fopen and fclose
+- fread and fwrite
+- file_get_contents
+- file_put_contents
+- file locking using flock
+
+Author: Sahithi
+Purpose: PHP Lab Task 2
+Date: 2026

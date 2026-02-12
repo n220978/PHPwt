@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <style>
+            body {
+                font-family: Arial;
+                text-align: center;
+                margin-top: 100px;
+                background-color:lightpink;
+    
+            }
+
+            input {
+                padding: 8px;
+                margin: 10px;
+            }
+
+            button {
+                padding: 8px 15px;
+                cursor: pointer;
+            }
+            select{
+                width:240px;
+                height:30px;
+            }
+            form{
+                font-size:25px;
+            }
+        </style>
+    </head>
+    <body>
+
+    <h2>Login</h2>
+
+        <form>
+            <label>Username:      </label><input type="text" id="username" placeholder="Enter username" required><button type="button" onclick="names()">Check</button><br>
+            <br>
+            <label>Password: </label><input type="password" placeholder="*******" required><br><br>
+            <lable>Country: </lable><select id="country" name="country" >
+                <option value="">Select</option>
+                <option value="India">India</option>
+                <option value="Korea">Korea</option>
+                <option value="Japan">Japan</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Australia">Australia</option>
+                <option value="Russia">Russia</option>
+            </select><br><br>
+            <label>Mobile Number: </label><input type="nubmer" placeholder="Enter mobile number"><br><br>
+            <label>Email:</label><input type="email" name="email" placeholder="Enter email" required>
+            <br>
+
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Enter password" required><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <script src="website.js"></script>
+
+    </body>
+</html>
